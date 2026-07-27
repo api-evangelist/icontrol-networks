@@ -1,8 +1,25 @@
 aid: icontrol-networks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/icontrol-networks.png
 name: IControl Networks
-description: 'IControl Networks is a company surfaced as a portfolio company of kleiner-perkins and added
-  to the API Evangelist network as a stub for enrichment. Sector: hardtech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'IControl Networks was a smart-home and home-security platform company (OpenHome / Connect,
+  Piper) backed by Kleiner Perkins. It was acquired by Comcast in 2017 (the platform underpinned Xfinity
+  Home) with its residential SaaS business sold to Alarm.com; it no longer operates as an independent
+  entity. Enrichment probe (2026-07-20): the icontrol.com domain no longer serves a website and is now
+  delegated to Comcast nameservers (dns10x.comcast.net); icontrolnetworks.com, developer.icontrol.com,
+  and api.icontrol.com do not resolve. No live developer portal, documentation, or public API surface
+  exists to harvest. Sector: hardtech / IoT.'
+x-domain-status: 'defunct-acquired; icontrol.com held by Comcast (NS comcast.net), no live A record, no API surface'
 url: https://raw.githubusercontent.com/api-evangelist/icontrol-networks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,22 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Hardtech
+- Smart Home
+- Home Security
+- IoT
+- Home Automation
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
